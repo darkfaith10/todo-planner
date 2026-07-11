@@ -137,12 +137,12 @@ export default function App() {
       <header className="app-header">
         <div className="app-header-top">
           <div>
-            <span className="app-eyebrow">A planner across every zoom level</span>
-            <h1 className="app-title">Scope</h1>
+            <span className="app-eyebrow">Vijay's planner</span>
+            <h1 className="app-title">TODO</h1>
           </div>
           <CalendarPicker selectedDate={selectedDate} onSelect={setSelectedDate} />
         </div>
-        <p className="app-sub">Zoom out from today, all the way to the whole year.</p>
+        <p className="app-sub">Fail Fast, Move Fast</p>
       </header>
 
       {error && (
